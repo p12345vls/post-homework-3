@@ -4,12 +4,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/post-homework-3/Stylesheets/main.css">
-        <link href="/post-homework-3/Stylesheets/lightbox.css" rel="stylesheet">
+        <link rel="stylesheet" href="Stylesheets/main.css">
+        <link href="Stylesheets/lightbox.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="/post-homework-3/Scripts/script.js"></script>
-        <script src="/post-homework-3/Scripts/lightbox.min.js"></script>
+        <script src="Scripts/script.js"></script>
+        <script src="Scripts/lightbox.min.js"></script>
         <script>
             function resizeIframe(obj) {
                 obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
@@ -128,7 +128,6 @@
                             <textarea name='orderForm' id='orderForm' cols="60" rows="8" ></textarea><br> <br>
 
                             <div align="center">
-                                <!--<a href="#section3" id="back"><input type="submit"value="Place Order" name="submitbutton"></a>  &nbsp;-->
                                 <input type="submit"value="Place Order" name="submitbutton">
                                 <input type="reset" value="Clear" name="resetbutton">
                             </div>
