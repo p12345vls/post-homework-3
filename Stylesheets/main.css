@@ -1,0 +1,188 @@
+body,
+html,
+.main,
+.main2 {
+    height: 100%;
+}
+
+
+section {
+    height: 100%;
+}
+
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+#container1 {
+
+    width: 90%;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    border: solid 5px black;
+    border-radius: 1%;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    margin-left: 2%;
+    width: 85%;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+li {
+    float: left;
+}
+
+ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: auto;
+
+
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+
+
+}
+
+.menu {
+    font-size: 20px;
+}
+
+
+
+h1 {
+    width: 100%;
+    height: 500px;
+    background-position: 60% center;
+    margin: auto;
+    background-size: cover;
+}
+
+
+.center {
+    text-align: center;
+    margin: 20px auto;
+    color: #666666;
+    font-family: Helvetica, sans-serif;
+}
+
+#boximages img {
+    border-radius: 15%;
+    border: 4px solid white;
+    margin: 5px;
+    box-shadow: 1px 2px #888888;
+}
+
+td {
+    color: #666666;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+#table1 td {
+    color: #F0E68C;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 2px 2px grey;
+
+}
+
+caption {
+    color: green;
+    text-shadow: 2px 2px 4px #F0E68C;
+}
+
+div.main section {
+    background-color: #C26868;
+}
+
+div.main2 section {
+    background-color: #F6F2D8;
+    border: solid 5px black;
+    border-radius: 1%;
+    text-align: center;
+    padding-top: 70px;
+    color: #666666;
+
+}
+
+fieldset {
+    width: 30%;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-color: #C26868;
+}
+
+#order {
+    width: 80%;
+    height: 90%;
+    /*background-color: #e0e0d1;*/
+    text-align: center;
+    margin: auto;
+}
+
+#tableOrder {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+#tableOrder td {
+    border: 4px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#tableOrder th {
+    border: 4px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#tableOrder tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#tableOrder{
+    background-color: #F6F2D8;
+}
+
+ fieldset{
+    font-size: 10px;
+}
+
+iframe{
+    margin-top: -100px;
+}
+label{
+    font-size: 12px ;
+    font-weight: bold;
+}
+
