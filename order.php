@@ -25,8 +25,8 @@
     <body>
         <div id=order>
 
-            <h1>Order</h1>
-            <div style="margin-top:-420px;">
+            <h1>Scroll Down to Your Order</h1>
+            <div style="margin-top:-330px;">
                 <?php
 
 
